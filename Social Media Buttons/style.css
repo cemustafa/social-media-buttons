@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body{
+    background-color:#f1f1f1;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.social-media{
+    display: flex;
+}
+
+.social-media div{
+    margin: 0 20px;
+    background-color:rgb(59, 56, 56);
+    padding: 20px;
+    border-radius: 50%;
+}
+
+.social-media i{
+    font-size: 40px;
+    color: #fff;
+    transition: .35s all;
+}
+
+.social-media div:hover > a > i{
+    transform: scale(1.6) rotate(360deg);
+}
+
+.facebook:hover{
+    background-color: rgb(52, 52, 202);
+}
+
+.twitter:hover{
+    background-color: rgb(33, 172, 252);
+}
+
+.google:hover{
+    background-color:rgb(255, 17, 0);
+}
+.instagram:hover{
+    background-color: rgb(165, 21, 165);
+}
+.youtube:hover{
+    background-color:red;
+}
